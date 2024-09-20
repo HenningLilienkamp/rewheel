@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+*.ipynb
+Dockerfile
+build/
+rewheel.egg-info
