@@ -23,9 +23,13 @@ The usage via the docker container is highly recommended:
 
 `docker pull lilienka/python311-rewheel`
 
-[4] - Launch the container via docker run -v /path/to/MNIST/data/:/MNIST_data/ --gpus all -it -p 8888:8888 python311-rewheel (skip "--gpus all" if you skipped step 2.5)
+[4] - Launch the container:
 
-[5] - Launch jupyter notebook: jupyter-notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+`run -v /path/to/MNIST/data/:/MNIST_data/ --gpus all -it -p 8888:8888 python311-rewheel` (skip "--gpus all" if you skipped step 2.5)
+
+[5] - Launch jupyter notebook:
+
+`jupyter-notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
 
 [6] - Explore rewheel via the jupyter notebook MNIST_classification_tutorial.ipynb in the docker container
 
