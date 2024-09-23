@@ -19,7 +19,9 @@ The usage via the docker container is highly recommended:
 
 [2.5] - OPTIONAL: Install NVIDIA container toolkit to enable cuda GPU support: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
-[3] - Get the rewheel docker container: `docker pull lilienka/python311-rewheel`
+[3] - Get the rewheel docker container: 
+
+`docker pull lilienka/python311-rewheel`
 
 [4] - Launch the container via docker run -v /path/to/MNIST/data/:/MNIST_data/ --gpus all -it -p 8888:8888 python311-rewheel (skip "--gpus all" if you skipped step 2.5)
 
