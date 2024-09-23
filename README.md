@@ -5,6 +5,7 @@ This is a dummy codebase to demonstrate the following skills:
   - Deep learning with pytorch
   - Containerization with Docker
   - Version control with git
+
 Current functionality is limited to classification of the MNIST handwritten digits dataset with a
 Mulit Layer Perceptron model implemented in pytorch.
 
