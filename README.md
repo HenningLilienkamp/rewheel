@@ -7,7 +7,7 @@ This is a dummy codebase to demonstrate the following skills:
   - Version control with git
 
 Current functionality is limited to classification of the MNIST handwritten digits dataset with a
-Mulit Layer Perceptron model implemented in pytorch.
+Multi Layer Perceptron model implemented in pytorch.
 
 # Usage
 The usage via the docker container is highly recommended:
